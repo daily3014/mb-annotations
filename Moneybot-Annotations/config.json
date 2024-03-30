@@ -1,0 +1,33 @@
+{
+    // if not set, the folder name will be used
+    "name": "Moneybot",
+    // list of matched words
+    "words": [
+        "antiaim%.%w+",
+        "client%.%w+",
+		"crits%.%w+",
+        "callbacks%.%w+",
+        "console%.%w+",
+        "engine%.%w+",
+        "cvar%.%w+",
+        "entity_list%.%w+",
+        "exploits%.%w+",
+        "engine_trace%.%w+",
+        "files%.%w+",
+        "input%.%w+",
+        "json%.%w+",
+        "materials%.%w+",
+        "pr%.%w+",
+        "render%.%w+",
+        "server%.%w+",
+        "trace%.%w+",
+        "ui%.%w+",
+        "user%.%w+"
+    ],
+    // list or matched file names. `.lua`, `.dll` and `.so` only
+    "files": [],
+    "settings": {
+        "Lua.runtime.version": "Lua 5.1",
+        "Lua.diagnostics.globals": []
+    }
+}
