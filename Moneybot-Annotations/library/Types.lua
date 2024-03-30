@@ -10,7 +10,7 @@
 ---@alias ui_menuitem ui_button | ui_checkbox | ui_colorpicker | ui_dropdown | ui_hotkey | ui_label | ui_multidropdown | ui_sliderfloat | ui_slider | ui_textbox
 
 
----@alias ANY_FORM color_t | Vector2D | Vector3D | Color | Vector
+---@alias ANY_FORM color_t | Vector2D | Vector3D | Color | Vector | Vertex
 ---@alias COLOR color_t | Color
 ---@alias VECTOR Vector2D | Vector3D | Vector
 
