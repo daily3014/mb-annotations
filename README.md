@@ -1,4 +1,4 @@
-# Lua 5.1 Annotations for Moneybot Lua Api
+# Lua Annotations for Moneybot Lua Api
 # Installation
 Install the [LUA Extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for VSCode\
 Clone or download this repo. If you download it as a zip, extract it.\
