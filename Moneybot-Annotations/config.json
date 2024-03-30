@@ -27,7 +27,7 @@
     // list or matched file names. `.lua`, `.dll` and `.so` only
     "files": [],
     "settings": {
-        "Lua.runtime.version": "Lua 5.1",
+        "Lua.runtime.version": "LuaJIT",
         "Lua.diagnostics.globals": []
     }
 }

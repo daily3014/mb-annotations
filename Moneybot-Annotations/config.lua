@@ -7,7 +7,7 @@ local words = {}
 local files = {}
 
 local settings = {
-    ["Lua.runtime.version"] = "Lua 5.1",
+    ["Lua.runtime.version"] = "LuaJIT",
     ["Lua.diagnostics.globals"] = {}
 }
 
