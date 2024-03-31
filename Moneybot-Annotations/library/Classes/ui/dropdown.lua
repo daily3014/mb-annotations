@@ -2,8 +2,8 @@
 ---@class ui_dropdown
 local ui_dropdown = {}
 
----Returns `true` if the dropdown is selected
----@return boolean is_selected
+---Returns the index of the selected option
+---@return number index
 function ui_dropdown:get() end
 
 ---Sets the dropdown to an index

@@ -3,8 +3,9 @@
 local ui_multidropdown = {}
 
 ---Returns `true` if the given option is selected
+---@param option string
 ---@return boolean is_selected
-function ui_multidropdown:get() end
+function ui_multidropdown:get(option) end
 
 ---Sets the option in the multiselect
 ---@param option string
