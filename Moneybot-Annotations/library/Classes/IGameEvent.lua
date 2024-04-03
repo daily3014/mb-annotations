@@ -16,17 +16,21 @@ function IGameEvent:is_local() end
 function IGameEvent:is_empty() end
 
 ---Returns a boolean of the game event
+---@param name string
 ---@return boolean bool
-function IGameEvent:get_bool() end
+function IGameEvent:get_bool(name) end
 
 ---Returns a integer of the game event
+---@param name string
 ---@return integer int
-function IGameEvent:get_int() end
+function IGameEvent:get_int(name) end
 
 ---Returns a float of the game event
+---@param name string
 ---@return number float
-function IGameEvent:get_float() end
+function IGameEvent:get_float(name) end
 
 ---Returns a string of the game event
+---@param name string
 ---@return string string
-function IGameEvent:get_string() end
+function IGameEvent:get_string(name) end
