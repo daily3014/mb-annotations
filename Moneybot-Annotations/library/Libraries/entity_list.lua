@@ -19,7 +19,7 @@ function entity_list.get_highest_entity_count() end
 
 ---Gets all entities of a client class
 ---@param name string
----@return number entities
+---@return number[] entities
 function entity_list.get_all(name) end
 
 ---Returns the localplayer entity

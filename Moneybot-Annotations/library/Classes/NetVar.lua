@@ -32,15 +32,13 @@ function NetVar:get_vector() end
 function NetVar:get_vector2d() end
 
 --Returns a handle of a netvar
----@param index number
 ---@return number handle
-function NetVar:get_handle(index) end
+function NetVar:get_handle() end
 
 --Returns a handle of a netvar in a table
 ---@param index number
 ---@return number handle
 function NetVar:get_handle_at_index(index) end
-
 
 ---Sets the NetVar's boolean
 ---@param to_set boolean
