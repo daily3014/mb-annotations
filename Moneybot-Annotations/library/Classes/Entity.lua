@@ -95,7 +95,7 @@ function Entity:get_class_id() end
 
 ---Returns a entities property
 --
----[Net props](https://raw.githubusercontent.com/powerlord/tf2-data/master/netprops.txt)
+---[Net props](https://invalidvertex.com/tf2dump/netprops.txt)
 ---@param prop NetProps
 ---@vararg string
 ---@return NetVar value

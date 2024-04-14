@@ -1,0 +1,5 @@
+{
+	"Lua.codeLens.enable": true,
+	"Lua.diagnostics.disableScheme": [],
+	"Lua.workspace.ignoreDir": []
+}

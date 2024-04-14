@@ -9,7 +9,7 @@ function ui_multidropdown:get(option) end
 
 ---Sets the option in the multiselect
 ---@param option string
----@param to_set integer
+---@param to_set boolean
 ---@return nil
 function ui_multidropdown:set(option, to_set) end
 
