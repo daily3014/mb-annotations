@@ -15,7 +15,7 @@
 ---@alias COLOR color_t | Color
 ---@alias VECTOR Vector2D | Vector3D | Vector
 
----@alias trace_t { allsolid: boolean, endpos: color_t, fraction: number, hitbox: number, hitgroup: number, startsolid: number }
+---@alias trace_t { allsolid: boolean, endpos: vector3D, fraction: number, hitbox: number, hitgroup: number, startsolid: number }
 ---@alias player_info_t { fakeplayer: boolean, name: string, guid: string, userId: number, friendsId: number }
 
 --TODO find out what image is
