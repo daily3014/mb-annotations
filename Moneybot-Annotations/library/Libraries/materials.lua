@@ -1,42 +1,8 @@
 ---@meta
 
+---The `materials` library provides functions to create and find materials
 ---@class materials
 materials = {}
-
----@alias Materials
----| "LightmappedGeneric"
----| "LightmappedReflective"
----| "LightmappedTwoTexture"
----| "Lightmapped_4WayBlend"
----| "MultiBlend"
----| "WorldTwoTextureBlend"
----| "WorldVertexTransition"
----| "WindowImposter"
----| "Water"
----| "UnlitGeneric"
----| "UnlitTwoTexture"
----| "WorldGGX"
----| "ParallaxText"
----| "PaintBlob"
----| "Sky"
----| "Core"
----| "SpriteCard"
----| "Wireframe"
----| "Cable"
----| "SplineRope"
----| "Refract"
----| "MonitorScreen"
----| "Modulate"
----| "VertexLitGeneric"
----| "Eyes"
----| "EyesRefract"
----| "VortWarp"
----| "Aftershock"
----| "Teeth"
----| "SurfaceGGX"
----| "Character"
----| "SolidEnergy"
----| "VolumeCloud"
 
 ---Creates a material
 ---@param material_name string

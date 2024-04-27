@@ -1,5 +1,6 @@
 ---@meta
 
+---The `database` library provides functions to save data locally and to retrieve the data
 ---@class database
 database = {}
 

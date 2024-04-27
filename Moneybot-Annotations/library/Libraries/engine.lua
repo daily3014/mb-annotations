@@ -1,5 +1,6 @@
 ---@meta
 
+---The `engine` library is used to get general information about the client such as whether they're connected to a server or their view angles
 ---@class engine
 engine = {}
 

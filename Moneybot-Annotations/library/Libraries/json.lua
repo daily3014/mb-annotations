@@ -1,5 +1,6 @@
 ---@meta
 
+---The `json` library provides functions to convert a table to json and vice versa
 ---@class json
 json = {}
 

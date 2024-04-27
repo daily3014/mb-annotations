@@ -1,5 +1,6 @@
 ---@meta
 
+---The `files` library provides functions to save data in the `tf` directory and read data from the `tf` directory
 ---@class files
 files = {}
 

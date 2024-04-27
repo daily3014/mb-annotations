@@ -1,6 +1,6 @@
 ---@meta
 
----The crits library provides functions to get information about moneybot's crithack
+---The `crits` library provides functions to get information about moneybot's crithack
 ---@class crits
 crits = {}
 

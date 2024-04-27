@@ -1,5 +1,6 @@
 ---@meta
 
+---The `input` library provides functions to query the user's mouse position and detect key presses
 ---@class input
 input = {}
 

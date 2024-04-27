@@ -1,9 +1,10 @@
 ---@meta
 
+---The `antiaim` library provides functions to query information about moneybot's antiaim
 ---@class antiaim
 antiaim = {}
 
----Returns the antiaim manual side.
+---Returns the process ticks
 ---@return number side
 function antiaim.get_process_ticks() end
 
@@ -15,7 +16,7 @@ function antiaim.get_auto_side() end
 ---@return boolean in_danger
 function antiaim.is_in_danger() end
 
----Returns the process ticks.
+---Returns the time spent in danger
 ---@return number ticks
 function antiaim.get_danger_time() end
 

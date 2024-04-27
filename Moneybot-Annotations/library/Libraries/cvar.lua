@@ -1,5 +1,6 @@
 ---@meta
 
+---The `cvar` library is used to edit and get the value of cvars
 ---@class cvar
 cvar = {}
 

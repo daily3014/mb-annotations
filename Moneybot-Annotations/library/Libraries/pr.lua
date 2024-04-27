@@ -1,5 +1,6 @@
 ---@meta
 
+---The `pr` library provides functions to query information about players i.e kills, deaths, team, health, etc
 ---@class pr
 pr = {}
 

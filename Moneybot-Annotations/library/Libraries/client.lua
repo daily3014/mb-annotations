@@ -1,6 +1,6 @@
 ---@meta
 
----The client library is used to get information about the client.
+---The `client` library is used to get information about the client.
 ---@class client
 client = {}
 
@@ -34,6 +34,7 @@ function client.get_map_name() end
 function client.get_current_target() end
 
 ---Forces a full update.
+---This function should be used sparingly
 ---@return nil
 function client.force_full_update() end
 
@@ -77,13 +78,15 @@ function client.get_realtime() end
 ---@return number ticks
 function client.get_tickcount() end
 
----(This function is considered `unsafe`, crashes are likely to occur if used inproperly.) Creates an interface
+---Creates an interface
+---This function is `unsafe`, crashes and unexpected behaviour are likely to occur if used improperly.
 ---@param module_name string
 ---@param interface_version string
 ---@return uintptr_t pointer
 function client.create_interface(module_name, interface_version) end
 
----(This function is considered `unsafe`, crashes are likely to occur if used inproperly.) Creates an interface
+---Creates an interface
+---This function is `unsafe`, crashes and unexpected behaviour are likely to occur if used improperly.
 ---@param module_name string
 ---@param pattern string
 ---@return uintptr_t pointer

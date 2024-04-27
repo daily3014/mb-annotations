@@ -1,5 +1,6 @@
 ---@meta
 
+---The `render` library provides functions to draw shapes, polygons, images, and text to the screen
 ---@class render
 render = {}
 

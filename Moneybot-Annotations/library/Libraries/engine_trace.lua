@@ -1,5 +1,6 @@
 ---@meta
 
+---The `engine_trace` library is used to do traces
 ---@class engine_trace
 engine_trace = {}
 

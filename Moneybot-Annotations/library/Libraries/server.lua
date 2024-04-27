@@ -1,5 +1,6 @@
 ---@meta
 
+---The `server` library provides functions to query information about the server i.e tick rate, ping, max clients, etc
 ---@class server
 server = {}
 

@@ -1,6 +1,6 @@
 ---@meta
 
----The `user` libary provides functions to get information about the moneybot user
+---The `user` libary provides functions to query information about the moneybot user i.e username, uid, build, is game ui visible?, etc
 ---@class user
 user = {}
 

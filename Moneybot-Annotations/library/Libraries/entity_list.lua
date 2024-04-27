@@ -1,5 +1,6 @@
 ---@meta
 
+---The `entity_list` library provides functions to get entities
 ---@class entity_list
 entity_list = {}
 

@@ -1,5 +1,6 @@
 ---@meta
 
+---The `trace` library provides functions to perform line and hull tracing operations
 ---@class trace
 trace = {}
 

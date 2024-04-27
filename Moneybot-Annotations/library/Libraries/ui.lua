@@ -1,8 +1,8 @@
 ---@meta
 
+---The `ui` library is used to make and retrieving ui elements
 ---@class ui
 ui = {}
-
 
 ---Creates a checkbox
 ---@param name string

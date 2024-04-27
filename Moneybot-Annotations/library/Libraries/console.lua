@@ -1,10 +1,8 @@
 ---@meta
 
+---The `console` library provides functions to execute console commands and print text to the developer console
 ---@class console
 console = {}
-
----
-function console._____________() end
 
 ---Executes client command
 ---@param command string
