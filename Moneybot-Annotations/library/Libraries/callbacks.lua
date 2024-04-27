@@ -1,5 +1,6 @@
 ---@meta
 
+---The `callbacks` library is used to register listeners for events such as player death, view rendering and etc
 ---@class callbacks
 callbacks = {}
 
