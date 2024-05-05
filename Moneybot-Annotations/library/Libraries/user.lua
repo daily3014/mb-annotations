@@ -12,8 +12,8 @@ function user.get_username() end
 ---@return number unix
 function user.get_unix_time() end
 
----Returns the client's time
----@return number time
+---Returns the client's time as a formatted string
+---@return string time
 function user.get_local_time() end
 
 ---Returns `true` if the user is in game
