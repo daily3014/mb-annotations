@@ -3,7 +3,7 @@
 ---@class CUserCmd
 ---@field command_number number
 ---@field tick_count number
----@field viewangles Vector3D
+---@field viewangles Vector
 ---@field forwardmove number
 ---@field sidemove number
 ---@field upmove number

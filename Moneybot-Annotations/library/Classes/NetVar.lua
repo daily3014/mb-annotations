@@ -61,12 +61,12 @@ function NetVar:set_float(to_set) end
 function NetVar:set_string(to_set) end
 
 ---Sets the netvars vector
----@param value Vector3D
+---@param value AnyVector
 ---@return nil
 function NetVar:set_vector(value) end
 
 --Sets the netvars 2D vector
----@param value Vector2D
+---@param value AnyVector
 ---@return nil
 function NetVar:set_vector2d(value) end
 

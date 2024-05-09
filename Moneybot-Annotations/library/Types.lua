@@ -58,17 +58,15 @@
 ---| "SolidEnergy"
 ---| "VolumeCloud"
 
-
----@alias color_t { r: number, g: number, b: number, a: number? }
----@alias Vector2D { x: number, y: number }
----@alias Vector3D { x: number, y: number, z: number }
 ---@alias uintptr_t integer
 ---@alias ui_menuitem ui_button | ui_checkbox | ui_colorpicker | ui_dropdown | ui_hotkey | ui_label | ui_multidropdown | ui_sliderfloat | ui_slider | ui_textbox
 
-
----@alias ANY_FORM color_t | Vector2D | Vector3D | Color | Vector | Vertex
----@alias COLOR color_t | Color
----@alias VECTOR Vector2D | Vector3D | Vector
+---@alias SizeArray { number, number }
+---@alias VectorArray { number, number, number }
+---@alias ColorArray { number, number, number, number? }
+---@alias AnyColor ColorArray | Color
+---@alias AnyVector VectorArray | Vector
+---@alias ANY_FORM VectorArray | ColorArray | Color | Vector | SizeArray | Vertex
 
 ---@alias trace_t { allsolid: boolean, endpos: vector3D, fraction: number, hitbox: number, hitgroup: number, startsolid: number }
 ---@alias player_info_t { fakeplayer: boolean, name: string, guid: string, userId: number, friendsId: number }

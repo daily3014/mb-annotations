@@ -18,6 +18,6 @@ function MaterialVar:set_float(to_set) end
 function MaterialVar:set_string(to_set) end
 
 ---Sets the materials vector
----@param to_set VECTOR
+---@param to_set AnyVector
 ---@return nil
 function MaterialVar:set_vector(to_set) end

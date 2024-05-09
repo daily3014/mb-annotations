@@ -19,7 +19,7 @@ function console.err(error, ...) end
 function console.print(text, ...) end
 
 ---Prints colored text to the console
----@param color color_t
+---@param color Color
 ---@param text string
 ---@vararg any
 ---@overload fun(r: number, g: number, b: number, a:number, text: string, ...): nil
@@ -28,8 +28,8 @@ function console.color_print(color, text, ...) end
 ---Dhows a log with customized text
 ---@param text string
 ---@vararg any
----@overload fun(color: color_t, text: string, ...): nil
+---@overload fun(color: Color, text: string, ...): nil
 ---@overload fun(r: number, g: number, b: number, a:number, text: string, ...): nil
-function console.log( text, ...) end
+function console.log(text, ...) end
 
 return console

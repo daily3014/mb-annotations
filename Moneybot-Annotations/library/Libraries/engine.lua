@@ -18,12 +18,12 @@ function engine.in_game() end
 function engine.is_connected() end
 
 ---Gets the localplayer's view angles
----@param view_angles Vector3D
+---@param view_angles Vector
 ---@return nil
 function engine.set_view_angles(view_angles) end
 
 ---Gets the localplayer's view angles
----@return Vector3D view_angles
+---@return Vector view_angles
 function engine.get_view_angles() end
 
 ---Returns the localplayer's entity index

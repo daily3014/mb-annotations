@@ -7,7 +7,8 @@ local Vector = {}
 
 --- Creates a vector struct
 ---@return Vector
----@overload fun(x: number, y: number, z: number?): Vector
+---@overload fun(x: number, y: number): Vector
+---@overload fun(x: number, y: number, z: number): Vector
 ---@overload fun(vector: { x: number, y: number, z: number? }): Vector
 function _G.vector() end
 

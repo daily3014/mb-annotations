@@ -5,18 +5,18 @@
 engine_trace = {}
 
 ---Raycast
----@param start_pos Vector3D
----@param end_pos Vector3D
+---@param start_pos Vector
+---@param end_pos Vector
 ---@param entity Entity
 ---@param mask number
 ---@return trace_t trace_results
 function engine_trace.trace_ray(start_pos, end_pos, entity, mask) end
 
 ---Raycast
----@param start_pos Vector3D
----@param end_pos Vector3D
----@param mins Vector3D
----@param maxs Vector3D
+---@param start_pos Vector
+---@param end_pos Vector
+---@param mins Vector
+---@param maxs Vector
 ---@param entity Entity
 ---@param mask number
 ---@return trace_t trace_results

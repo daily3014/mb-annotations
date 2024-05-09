@@ -29,7 +29,7 @@ function ui.add_hotkey(name) end
 
 ---Creates a color picker
 ---@param name string
----@param default COLOR
+---@param default Color
 ---@return ui_colorpicker colorpicker
 function ui.add_colorpicker(name, default) end
 

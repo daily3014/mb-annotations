@@ -16,8 +16,8 @@
 ---@field orthoBottom number
 ---@field fov number
 ---@field viewFov number
----@field origin Vector3D
----@field angles Vector3D
+---@field origin Vector
+---@field angles Vector
 ---@field zNear number
 ---@field xFar number
 ---@field aspectRatio number

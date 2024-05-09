@@ -5,15 +5,15 @@
 client = {}
 
 ---Returns the vectors of the player's camera angles.
----@return Vector3D camera_angles
+---@return Vector camera_angles
 function client.get_camera_angles() end
 
 ---Returns the vectors of the player's camera position.
----@return Vector3D camera_position
+---@return Vector camera_position
 function client.get_camera_position() end
 
 ---Returns the vectors of the player's eye position.
----@return Vector3D eye_position
+---@return Vector eye_position
 function client.get_eye_position() end
 
 ---Loads a script.

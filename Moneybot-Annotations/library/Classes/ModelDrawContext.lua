@@ -34,7 +34,7 @@ function ModelDrawContext:set_depth_range(start, finish) end
 function ModelDrawContext:skip_original_draw() end
 
 ---Sets the materials color
----@param color color_t
+---@param color AnyColor
 ---@return nil
 function ModelDrawContext:set_color(color) end
 
